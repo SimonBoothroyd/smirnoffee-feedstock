@@ -31,18 +31,19 @@ requirements:
 
 test:
   imports:
-    - openff.recharge
+    - smirnoffee
 
 about:
-  home: https://github.com/openforcefield/openff-recharge
+  home: https://github.com/SimonBoothroyd/smirnoffee
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: A framework for generating partial charges for molecules from QC data.
+  summary: Differentiably evaluate energies of molecules using SMIRNOFF force fields.
   description: |
-    A framework for generating partial charges for molecules from QC data.
-  doc_url: https://github.com/openforcefield/openff-recharge
-  dev_url: https://github.com/openforcefield/openff-recharge
+    A framework that aims to offer a simple API for differentiably evaluating the energy
+    of SMIRNOFF force fields applied to single molecules using pytorch.
+  doc_url: https://github.com/SimonBoothroyd/smirnoffee
+  dev_url: https://github.com/SimonBoothroyd/smirnoffee
 
 extra:
   recipe-maintainers:

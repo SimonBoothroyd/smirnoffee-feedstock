@@ -1,1 +1,9 @@
-{}
+channel_priority: flexible
+#azure:
+#  upload_packages: False
+upload_on_branch: master
+github:
+  user_or_org: simonboothroyd
+channels:
+  targets:
+    - [simonboothroyd, main]
