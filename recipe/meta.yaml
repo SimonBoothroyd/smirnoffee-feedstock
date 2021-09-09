@@ -1,5 +1,5 @@
 {% set name = "smirnoffee" %}
-{% set version = "0.0.1a1" %}
+{% set version = "0.0.1a2" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SimonBoothroyd/{{ name }}/archive/{{ version | replace("a", "-alpha.") }}.tar.gz
-  sha256: b4c5b39e8a03b75c4c25cb60d99031cbc410331e8d13ca44ec42608539767ff9
+  sha256: 453b7fd67a6ade15f30b9c7a55149382227e53f93a473cd94111f3b473019612
 
 build:
   noarch: python
